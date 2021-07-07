@@ -1,0 +1,28 @@
+You are asked to write a C program to calculate the final mark and grade of 5 students for a subject. 
+
+a) Write a function called calcFinalMark() to calculate the final mark of the subject. When 
+calculating the final mark, 30% is taken from the assignment mark and 70% is taken from 
+the paper mark. Function should return the final mark. Assignment mark and paper mark 
+are given as parameters to the functions.
+
+float calcFinalMark(float assignmentMark, float paperMark);
+
+b) Write a function called findGrades() to return the grade obtained for the given final mark. 
+
+Grades are calculated as follows:
+char findGrades(float finalMark);
+
+Final mark Grade
+Mark >= 75 A
+60 <= Mark < 75 B
+50 <= Mark <60 C
+Mark <50 F
+
+c) Write a function called printDetails() to print the name, final mark and the grade of a 
+student.
+
+Your output should be as follows:
+
+   Name     FinalMark    Grade
+
+-------- -------------- --------
